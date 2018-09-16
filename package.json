@@ -1,0 +1,32 @@
+{
+  "name": "rx-playground",
+  "version": "1.0.0",
+  "description": "Basic repo to try out Rx examples.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --config webpack.config.js",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anuragjain89/rx-playground.git"
+  },
+  "author": "Anurag Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anuragjain89/rx-playground/issues"
+  },
+  "homepage": "https://github.com/Anuragjain89/rx-playground#readme",
+  "dependencies": {
+    "rxjs": "^6.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.19.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
